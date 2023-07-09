@@ -1,0 +1,18 @@
+mkdir src 
+cd ..
+npm install express http url path
+// src/server.js 만들기
+
+npm install 
+// node_modules를 한번에 package.json에 제시된 버전에 맞게 다운로드 함
+
+https://www.npmjs.com/
+// 필요한 패키지는 가능하면 이 사이트에서 찾도록 함
+
+npm install nodemon
+// 서버 개발 시에, 업데이트 되면 자동으로 서버를 껐다가 켜주는 기능
+// 대신 package.json에 다음과 같은 내용이 추가되어야 함
+// "scripts": {
+//    "start": "node ./src/index.js",
+//    "dev": "nodemon ./src/index.js"
+// },
