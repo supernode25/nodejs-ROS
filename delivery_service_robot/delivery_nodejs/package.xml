@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>delivery_nodejs</name>
+  <version>0.0.0</version>
+  <description>delivery service robot web menu plate package</description>
+  <maintainer email="roomedia@naver.com">EngHyu</maintainer>
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>

@@ -5,7 +5,6 @@ REST API 원칙
 
 */
 
-
 const express = require("express");
 const app = express();
 
